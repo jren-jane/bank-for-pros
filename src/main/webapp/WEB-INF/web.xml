@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="2.5"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <filter>
+    <filter-name>LogInFilter</filter-name> <!-- mandatory -->
+    <filter-class>servlets.LogInFilter</filter-class> <!-- mandatory -->
+  </filter>
+  <filter-mapping>
+    <filter-name>LogInFilter</filter-name> <!-- mandatory -->
+    <url-pattern>/my-account.jsp</url-pattern>
+    <servlet-name>RecentActivityServlet</servlet-name>
+    <url-pattern>/transfer.jsp</url-pattern>
+    <url-pattern>/transactionRecord.jsp</url-pattern>
+    <url-pattern>/createForeignCurrencyAccount.jsp</url-pattern>
+    <url-pattern>/convertCurrency.jsp</url-pattern>
+    <url-pattern>/settings.jsp</url-pattern>
+    <url-pattern>/changePassword.jsp</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>AccountInformationFilter</filter-name>
+    <filter-class>servlets.AccountInformationFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AccountInformationFilter</filter-name>
+    <url-pattern>/index.jsp</url-pattern>
+    <url-pattern>/convertCurrency.jsp</url-pattern>
+    <url-pattern>/createForeignCurrencyAccount.jsp</url-pattern>
+    <url-pattern>/my-account.jsp</url-pattern>
+    <url-pattern>/products.jsp</url-pattern>
+    <url-pattern>/settings.jsp</url-pattern>
+    <url-pattern>/changePassword.jsp</url-pattern>
+    <url-pattern>/transactionRecord.jsp</url-pattern>
+    <url-pattern>/transfer.jsp</url-pattern>
+    <url-pattern>/products.jsp</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+
+  <servlet>
+    <!--        <description></description>-->
+    <display-name>LogOutServlet</display-name>
+    <servlet-name>LogOutServlet</servlet-name>
+    <servlet-class>servlets.LogOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOutServlet</servlet-name>
+    <url-pattern>/LogOutServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <!--        <description></description>-->
+    <display-name>RecentActivityServlet</display-name>
+    <servlet-name>RecentActivityServlet</servlet-name>
+    <servlet-class>servlets.RecentActivityServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RecentActivityServlet</servlet-name>
+    <url-pattern>/RecentActivityServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <!--        <description></description>-->
+    <display-name>BankingControllerServlet</display-name>
+    <servlet-name>BankingControllerServlet</servlet-name>
+    <servlet-class>servlets.BankingControllerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BankingControllerServlet</servlet-name>
+    <url-pattern>/BankingControllerServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
