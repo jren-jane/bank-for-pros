@@ -23,7 +23,7 @@ To run the application locally, you need to have JDK 8 and Tomcat 9.0.41 install
 
 (It is possible to use other versions, but for me, more recent versions of Tomcat does not work well with Maven, and more recent versions of JDK does not work well on Heroku. )
 
-## Notes
+## Details
 Although the app is still small, I am keeping good practices in its development, and trying to exploit the advantages of object-oriented programming:
 * No scriptlets: Scriptlets are strictly avoided in JSP pages, and the app takes the form of a small MVC.
 * Encapsulation: Account information, such as currency types and client id, is encapsulated when it is passed around, so the application is extensible and can include more types of accounts tomorrow--for instance, debit and credit accounts
