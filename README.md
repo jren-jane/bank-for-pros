@@ -23,7 +23,7 @@ With this banking web application, users can create accounts, convert currencies
 
 You can visit the website at https://bank-for-pros.herokuapp.com/ to view the deployed application. 
 
-To run the application locally, you need to have JDK 8 and Tomcat 9.0.41 installed on your machine. And you need the servlet libruaries stated in the POM file put in your Tomcat home. 
+To run the application locally, you need to have JDK 8 and Tomcat 9.0.41 installed on your machine. And you need the servlet and JSTL libruaries stated in the POM file put in your Tomcat home. 
 
 (It is possible to use other versions, but for me, more recent versions of Tomcat does not work well with Maven, and more recent versions of JDK does not work well on Heroku. )
 
