@@ -1,9 +1,5 @@
 # bank-for-pros
 
-## Table of contents
-* General info
-* Technologies
-
 ## General info
 With this banking web application, users can create accounts, convert currencies, transfer funds, view transaction records in different currencies. They can also view various financial products on the product page.
 
