@@ -13,7 +13,7 @@ With this banking web application, users can create accounts, convert currencies
 ## Built with 
 * Maven
 * Tomcat
-* MySQL
+* JawsDB MySQL
 
 ## Implementation
 
