@@ -15,9 +15,6 @@ With this banking web application, users can create accounts, convert currencies
 * Tomcat
 * JawsDB MySQL
 
-## UML
-![img](https://github.com/jren-jane/bank-for-pros/blob/6d98cc30122c3f4795bb21c0d3f1990fe4b355f1/img/Class%20Diagram.png)
-
 ## Implementation
 
 You can visit the website at https://bank-for-pros.herokuapp.com/ to view the deployed application. 
@@ -27,6 +24,9 @@ To run the application locally, you need to have JDK 8, Tomcat 9.0.41 installed 
 To deploy the application to Heroku, you can use IntelliJ's integration with Heroku by running command Heroku:deploy war, or you can deploy the app from Github. 
 
 (It is possible to use other versions, but for me, more recent versions of Tomcat does not work well with Maven, and more recent versions of JDK does not work well on Heroku. )
+
+## UML
+![img](https://github.com/jren-jane/bank-for-pros/blob/6d98cc30122c3f4795bb21c0d3f1990fe4b355f1/img/Class%20Diagram.png)
 
 ## Details
 Although the app is still small, I am keeping good practices in its development, and trying to exploit the advantages of object-oriented programming:
