@@ -36,6 +36,8 @@ Although the app is still small, I am keeping good practices in its development,
 * Pages are styled so they can be rendered nicely on screens of different sizes
 
 ## Screen shots
+![img](https://github.com/jren-jane/bank-for-pros/blob/e1f75e6e63b1172c382fe2780ad09eaa784c739d/img/index.png)
+![img](https://github.com/jren-jane/bank-for-pros/blob/e1f75e6e63b1172c382fe2780ad09eaa784c739d/img/register.png)
 ![img](https://github.com/jren-jane/bank-for-pros/blob/d03f2db3ea6724b9e922a2207718221009a443f1/img/convert-currency.png)
 ![img](https://github.com/jren-jane/bank-for-pros/blob/d03f2db3ea6724b9e922a2207718221009a443f1/img/my-account.png)
 ![img](https://github.com/jren-jane/bank-for-pros/blob/d03f2db3ea6724b9e922a2207718221009a443f1/img/transfer-funds.png)
