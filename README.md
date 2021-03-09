@@ -34,3 +34,11 @@ Although the app is still small, I am keeping good practices in its development,
 * Encapsulation: Account information, such as currency types and client id, is encapsulated when it is passed around, so the application is extensible and can include more types of accounts tomorrow--for instance, debit and credit accounts
 * Inheritance: Transaction tasks--and other tasks yet to be implemented--inherit from the abstract task class, following the template design pattern. Thus anyone who creates a new type of task has to implement the record transaction method, yet does not have to duplicate its code.
 * Pages are styled so they can be rendered nicely on screens of different sizes
+
+## Screen shots
+![img](https://github.com/jren-jane/bank-for-pros/blob/d03f2db3ea6724b9e922a2207718221009a443f1/img/convert-currency.png)
+![img](https://github.com/jren-jane/bank-for-pros/blob/d03f2db3ea6724b9e922a2207718221009a443f1/img/my-account.png)
+![img](https://github.com/jren-jane/bank-for-pros/blob/d03f2db3ea6724b9e922a2207718221009a443f1/img/transfer-funds.png)
+![img](https://github.com/jren-jane/bank-for-pros/blob/d03f2db3ea6724b9e922a2207718221009a443f1/img/product-1.png)
+![img](https://github.com/jren-jane/bank-for-pros/blob/d03f2db3ea6724b9e922a2207718221009a443f1/img/product-2.png)
+![img](https://github.com/jren-jane/bank-for-pros/blob/d03f2db3ea6724b9e922a2207718221009a443f1/img/product-3.png)
