@@ -15,6 +15,9 @@ With this banking web application, users can create accounts, convert currencies
 * Tomcat
 * JawsDB MySQL
 
+# UML
+![img](img/Class Diagram.png)
+
 ## Implementation
 
 You can visit the website at https://bank-for-pros.herokuapp.com/ to view the deployed application. 
