@@ -16,7 +16,7 @@ With this banking web application, users can create accounts, convert currencies
 * JawsDB MySQL
 
 ## UML
-![img](Class Diagram.png)
+![alt text](http://url/to/Class Diagram.png)
 
 ## Implementation
 
