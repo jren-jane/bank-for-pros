@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T08:06:52.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="HfHZacfrafMF5Awv4NUe" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T08:12:15.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="QNJN_Xmcjs7Od9bSpsZQ" version="14.4.4" type="github">
   <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -176,7 +176,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eXmw_8-DnYwRp7ZnmwKu-36" value="TransferTask" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="760" y="820" width="200" height="290" as="geometry" />
+          <mxGeometry x="805" y="830" width="200" height="290" as="geometry" />
         </mxCell>
         <mxCell id="eXmw_8-DnYwRp7ZnmwKu-37" value="- account: Account" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eXmw_8-DnYwRp7ZnmwKu-36">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -251,6 +251,12 @@
         </mxCell>
         <mxCell id="eXmw_8-DnYwRp7ZnmwKu-75" value="+ getTransactionRecords(): List&amp;lt;Transaction&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eXmw_8-DnYwRp7ZnmwKu-65">
           <mxGeometry y="130" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eXmw_8-DnYwRp7ZnmwKu-76" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eXmw_8-DnYwRp7ZnmwKu-36" target="eXmw_8-DnYwRp7ZnmwKu-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="870" y="780" as="sourcePoint" />
+            <mxPoint x="1030" y="780" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
